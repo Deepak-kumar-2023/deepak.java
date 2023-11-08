@@ -19,16 +19,33 @@ public class test02 {
         int[] result1 = new int[s];
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 4 - i; j++) {
-                result1[] = result[i] * result[i + j + 1];
-                System.out.print(result1[j + i] + " ");
+                if (i == 0) {
+                    for (int k = 0; k == j; k++) {
+                        result1[k] = result[i] * result[i + j + 1];
+                    }
+                } else if (i == 1) {
+                    for (int k = 4; k == j; k++) {
+                        result1[k] = result[i] * result[i + j + 1];
+                    }
+                } else if (i == 2) {
+                    for (int l = 7; l == j; l++) {
+                        result1[l] = result[i] * result[i + j + 1];
+                    }
+                } else if (i == 3) {
+                    for (int m = 9; m == j; m++) {
+                        result1[m] = result[i] * result[i + j + 1];
+                    }
+                }
             }
 
+
         }
-//        System.out.println();
-//        for (int u = 0; u < 10; u++)
-//            System.out.print(result1[u] + " ");
-        }
+        System.out.println();
+        for (int v:result1) {
+            System.out.print(v+" ");}
+
     }
+}
 
 
 

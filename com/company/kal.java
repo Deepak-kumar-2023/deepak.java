@@ -34,4 +34,28 @@ public class kal {
            System.out.println(" ");
 //        sc.close();
     }
+//different type of for loop
+//        String SC[] ={"deepak","sameer","nishant"};
+//        for(String ac :SC){
+//            System.out.print(ac+" ");
+//        }
+
+
+
+        //StringBuilder making a new String
+      /*  StringBuilder sb = new StringBuilder();
+        sb.append(1);
+        sb.append(0);
+        sb.append(0);
+
+        String result =sb.toString();
+        System.out.println(result);*/
+
+
+        //printing Stars
+//        for(int i=0;i<7;i++){
+//            for(int a=i;a<=10-a;a++){System.out.print(" ");}
+//            for(int n=0;n<i;n++){System.out.print("* ");}
+//            System.out.println(" ");
+//        }
 }}
