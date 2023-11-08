@@ -1,0 +1,13 @@
+body{
+    font-family: sans-serif;
+    background: #FFF;
+    position: relative;
+    overflow: hidden;
+    font-size: 100%;
+    text-align: center;
+}
+.criteriom{
+    font-size: 1.6rem;
+    position: absolute;
+
+}
