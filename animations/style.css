@@ -6,7 +6,7 @@
 }
 body{
     background: hsl(0, 0%, 96%);
-    /* animation: deepak 10s ease-in-out  infinite; */
+    animation: deepak 10s ease-in-out  infinite;
     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
 }.game{
     position: absolute;
